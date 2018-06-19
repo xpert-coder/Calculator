@@ -1,0 +1,75 @@
+  .calculator{
+margin:auto;
+  margin-top:50px;
+  
+  padding:13px;
+  width:260px;
+  height:370px;
+  background:#d9d9d9;
+  border:0px;border-radius:8px;
+    box-shadow: 7px 10px 34px 1px  #999999, inset -1px -6px 12px 0.1px #89847e;
+  
+}
+.logo{
+   font-family: 'Bree Serif', serif;
+  font-size:1.7em;
+  text-align:justify;
+  
+}
+
+
+.buttons{
+  
+  width:250px;
+  height:290px;
+}
+.display{
+  font-size:1.5em;
+ font-family: 'Orbitron', sans-serif;
+  text-align:right;
+  padding:4px;
+  background:#6b7b6e;
+  width:222px;
+  height:60px;
+  border:0px solid red;
+  border-radius:5px;
+  margin-bottom:5px;
+  box-shadow:inset -4px -4px 13px  #666666;
+}
+.screen{margin:0px;padding:0px;border-bottom:1px dotted black;
+
+}
+.log{
+  font-size:0.9em;
+  height:20px;
+  
+}
+
+
+button{
+ /* background:radial-gradient(#a6a6a6,#686868);*/
+  background:#686868;
+  color:#cccabf;
+  border:0px solid #a6a6a6;
+  border-radius:15px;
+  width:45px;
+  height:40px;
+  margin:5px;
+  padding:5px;
+  box-shadow:1px 4px 3px #3f3f3f, inset -1px -6px 12px 0.1px #272626;
+  
+  font-size:25px;
+}
+button:active{transform:translate(0,2px );outline:0;
+box-shadow:1px 2px 3px #272626,inset -1px -6px 12px 0.1px #272626;
+}
+.symbol {background: #3f3f3d;color:cccabf;}
+
+
+.equal-long{height:90px;position:absolute;background:#e2e2d3;color:black;}
+.zero-wide{width:108px;}
+.red-btn{background:#993333;}
+#tm{font-size:2px;
+  
+
+}
